@@ -3,7 +3,7 @@
 const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig = {
-	assetPrefix: isProd ? '/richxcame.github.io/' : '',
+	assetPrefix: isProd ? '/' : '',
 	reactStrictMode: true,
 	webpack: config => {
 		config.module.rules.push({
