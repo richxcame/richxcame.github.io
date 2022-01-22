@@ -10,6 +10,7 @@ const SEO = {
 		site: '@Baygeldi12',
 	},
 	titleTemplate: '%s | Baygeldi Cholukov',
+	defaultTitle: 'Baygeldi Cholukov',
 };
 
 export default SEO;
